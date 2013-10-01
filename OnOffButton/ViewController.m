@@ -39,7 +39,6 @@
         }
     else{
         self.label.text=@"OFF";
-        self.tapButton.titleLabel.text=@"Turn On";
         [sender setTitle:@"Turn ON" forState:UIControlStateNormal];
         self.button=YES;
     }
