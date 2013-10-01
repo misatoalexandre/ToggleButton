@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //Initially set the button to YES.
     self.button= YES;
     
 	// Do any additional setup after loading the view, typically from a nib.
@@ -35,7 +36,6 @@
         [sender setTitle:@"Turn OFF" forState:UIControlStateNormal];
         self.button=NO;
     
-        
         }
     else{
         self.label.text=@"OFF";
